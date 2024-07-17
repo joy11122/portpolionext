@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+
       <div className="container-fluid  footer-bg text-dark p-5">
         <h2 className="text-center display-6 fw-bold text-info">
           Joyanta Halder
@@ -20,10 +20,10 @@ const Footer = () => {
         </div>
         <p className="text-center mt-5 text-danger">
           Copyright <span className="text-info">©</span> 2024,powered by Joyanta
-          halder{" "}
+          halder
         </p>
       </div>
-    </div>
+
   );
 };
 
