@@ -1,6 +1,6 @@
 "use client";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import "./globals.css";
 import "@/public/booticon/font/bootstrap-icons.css";
 import Navbar from "@/app/component/Navbar";
