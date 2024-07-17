@@ -1,7 +1,7 @@
 import React from "react";
 
 import Hero from "./component/Hero";
-import Categoty from "./component/Categoty";
+
 
 import Skill from "./component/Skill";
 import MyProject from "./component/MyProject";
@@ -20,7 +20,7 @@ const Page = () => {
       <LetUs />
       <Knowledge />
       <Education />
-      <Categoty />
+  
       <Contact />
       <Form/>
     </div>
