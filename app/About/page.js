@@ -1,10 +1,10 @@
 import React from 'react'
-import Card from '../component/Card'
+
 
 const page = () => {
     return (
         <div>
-            <Card/>
+           <h2>About Page</h2>
         </div>
     )
 }
