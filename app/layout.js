@@ -1,5 +1,3 @@
-"use client";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./globals.css";
 import "@/public/booticon/font/bootstrap-icons.css";
@@ -12,13 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
     
-      <script
-          src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
-          integrity="..."
-          crossorigin="anonymous"
-         defer 
-        ></script>
       </Head>
       <body>
         <Navbar />
@@ -26,6 +19,13 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
+      <script
+          src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+          integrity="..."
+          crossorigin="anonymous"
+         defer 
+        ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </html>
   );
 }
