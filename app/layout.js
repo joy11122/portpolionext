@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
           src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
           integrity="..."
           crossorigin="anonymous"
-          async  
+         defer 
         ></script>
       </Head>
       <body>
