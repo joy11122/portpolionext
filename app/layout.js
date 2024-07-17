@@ -13,7 +13,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
     
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="..." crossorigin="anonymous"></script>
+      <script
+          src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+          integrity="..."
+          crossorigin="anonymous"
+          async  
+        ></script>
       </Head>
       <body>
         <Navbar />
