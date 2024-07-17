@@ -1,4 +1,4 @@
-import "@/public/css/bootstrap.min.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import "@/public/booticon/font/bootstrap-icons.css";
 import Navbar from "@/app/component/Navbar";
