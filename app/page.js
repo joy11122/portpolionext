@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "@/app/component/Navbar";
+
 import Hero from "./component/Hero";
 import Categoty from "./component/Categoty";
-import Line from "./component/Line";
+
 import Skill from "./component/Skill";
 import MyProject from "./component/MyProject";
 import LetUs from "./component/LetUs";
@@ -10,7 +10,7 @@ import Knowledge from "./component/Knowledge";
 import Contact from "./component/Contact";
 import Education from "./component/Education";
 import Form from "./component/Form";
-const page = () => {
+const Page = () => {
   return (
     <div>
     
@@ -27,4 +27,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

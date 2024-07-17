@@ -1,7 +1,7 @@
 import React from 'react'
 import Contact from '../component/Contact'
 
-const page = () => {
+const Page = () => {
     return (
         <div className='mt-5'>
             <Contact/>
@@ -9,4 +9,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

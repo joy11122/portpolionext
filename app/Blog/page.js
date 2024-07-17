@@ -1,7 +1,7 @@
 import React from 'react'
-import MyProject from '../component/MyProject'
 
-const page = () => {
+
+const Page = () => {
     return (
        <>
      <div className="container p-5">
@@ -144,4 +144,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
