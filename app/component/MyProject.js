@@ -7,12 +7,14 @@ const MyProject = () => {
         <h2 className="text-center mb-3">My project</h2>
         <div className="row d-flex justify-content-center align-items-center gy-3 ">
           <div className="col-md-4 col-lg-3 " data-aos="slide-left">
-            <img
+            <a href="https://joy-nu.vercel.app/">
+    <img
               className="w-100"
               style={{ height: 350 }}
               src="images/card1.jpg"
               alt="hg"
             />
+    <a/>
           </div>
 
           <div className="col-md-8 " data-aos="slide-right">
